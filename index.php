@@ -42,7 +42,7 @@ $result = $conn->query($select_sql);
 </form>
 
 <?php
-echo count_days_since('2019-2-23');
+echo count_days_since('2019-1-0');
 foreach ($result as $row) {
     echo "<p>" . $row["id"] . "-" . $row["texto"] . "</p>";
 }
