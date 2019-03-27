@@ -8,3 +8,4 @@ function count_days_since($origin)
 
     return round(($date_diff / (60 * 60 * 24 * 7)));
 }
+    
